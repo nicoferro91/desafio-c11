@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+  <!-- Copiamos el link de bootstrap.com, siempre antes de nuestro CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+  <header class="p-3">
+    <h1>Desafio C-11: Bootstrap</h1>
+  </header>
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid barra">
+      <a class="navbar-brand" href="index.html">Inicio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="pages/destinos.html">Destinos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/paquetes.html">Paquetes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/promociones.html">Promociones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/contacto.html">Contacto</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <img src="img/playa-01.jpg" class="img-thumbnail mx-auto d-block" alt="foto de playa">
+        </div>
+        <div class="col-12 col-lg-6">
+          <img src="img/playa-02.jpg" class="img-thumbnail mx-auto d-block" alt="foto de playa">
+        </div>
+      </div>
+      <p class="text-center fs-4 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cumque aperiam,
+        quo aliquid
+        modi ut corporis perferendis, fuga at rem inventore, quis totam dolorum eos suscipit veritatis ad harum
+        tenetur..</p>
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <img src="img/playa-05.jpg" class="img-thumbnail mx-auto d-block" alt="foto de playa">
+        </div>
+        <div class="col-12 col-lg-6">
+          <img src="img/playa-06.jpg" class="img-thumbnail mx-auto d-block" alt="foto de playa">
+        </div>
+      </div>
+      <p class="text-center fs-4 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cumque aperiam,
+        quo aliquid
+        modi ut corporis perferendis, fuga at rem inventore, quis totam dolorum eos suscipit veritatis ad harum
+        tenetur..</p>
+    </div>
+  </main>
+  <footer class="text-center bg-light fixed-bottom">
+    <h5> Hotelia - 2022 - Argentina</h5>
+  </footer>
+  <!-- Copiamos los links de la parte de JS, siempre al final del body -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
